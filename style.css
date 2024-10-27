@@ -38,14 +38,14 @@ body {
     color: #333; 
 }
 
-.image-container {
+.carousel-item {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-.image-container img {
+.carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -117,3 +117,49 @@ body {
 .card-title, .card-text {
     color: #333 !important;
 }
+
+.fashion-section {
+    background-color: rgb(111, 111, 111); 
+    padding: 50px 0;
+}
+
+.fashion-section .section-title,
+.fashion-section .section-description {
+    color: #333; 
+}
+
+/* Custom styling for the modal */
+.modal-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.modal-body p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.modal .btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+}
+
+.icon-box {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box i {
+    color: #3498db;
+}
+
+
